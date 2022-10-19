@@ -1,7 +1,8 @@
 package combate.naval;
 public class CombateNaval {
-public static void main(String[] args) {
-        // TODO code application logic here
+    public static Juego Juego;
+    public static void main(String[] args) {
+        Juego = new Juego();
+        Juego.IniciarJuego();
     }
-    
 }
